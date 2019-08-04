@@ -54,18 +54,13 @@ Body{
 #social-media{
     position:fixed;
     top:50%;
-    right:0.6%;
+    right:0%;
     z-index:2;
-    
-    
-    
 }
 #social-media ul {
     list-style-type: none;
    padding: 0px;
     margin: 0px;
-    
-    
 }
 #social-media ul li img{
      width :50px;
@@ -155,19 +150,13 @@ width: 0px;
 width: 0px;
     height: 0px;
 }
-    .post{
-        width:100%;
-        left:0px;
-        height:800px;
-        margin-top:0.5%;
-    }
     #header{
         height:200px;
         
     }
     #logo-img{
-        padding-top:0;
-        width:200px;
+        padding-top:1px;
+        width:190px;
     }
     #logo-img2{
         width:500px;
@@ -191,11 +180,14 @@ width: 0px;
         height:70px;
     }
     .post{
-        margin-top:0px;
+        width:100%;
+        left:0px;
+        height:1375px;
+        margin-top:0.5%;
     }
     #social-media ul li img{
-     width :125px;
-    height:125px;
+     width :120px;
+    height:120px;
         float: right;}
      #social-media{
     position:fixed;
