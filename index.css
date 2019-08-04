@@ -1,0 +1,121 @@
+#header{
+    width:100%;
+    height:110px;
+    margin-top: -0.90%;
+    background-color:#f6f6f6;
+    border-bottom: 3px solid #2396f3;
+
+}
+Body{
+    background-color: rgb(218,224,230);
+}
+@font-face{ /* New font fron google fonts */
+    font-family: Roboto-Regular;
+    src:url(Roboto-Regular.ttf);}
+#logo-img2{
+    float:right;
+    width:250px;
+    padding-right:4%;
+    padding-top:0.5%;
+}
+#logo-img{
+    float:left;
+     width: 90px;
+    padding-top:0.7%;
+    padding-left:9%;
+
+    
+}
+#nav-links li{
+    float:left;
+    padding-left:70px;
+}
+#nav-links li a{
+    border-bottom: 1px solid rgba(35, 150, 243,0.7);
+    display: block;
+    padding:14px 95px;
+    background-color: #f6f6f6;
+    text-decoration: none;
+    color:black;
+    text-align: center;
+    font-family: Roboto-Regular;
+    
+}
+#nav-links {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f6f6f6;
+}
+#nav-links  li a:hover {
+    background-color:#e0e0e0;
+}
+#social-media{
+    position:fixed;
+    top:50%;
+    right:0.6%;
+    
+    
+    
+}
+#social-media ul {
+    list-style-type: none;
+   padding: 0px;
+    margin: 0px;
+    
+    
+}
+#social-media ul li img{
+     width :50px;
+    height:50px;
+    float: right;
+}
+.post{
+    clear: both;
+    width:50%;
+    height:550px;
+    background-color: white;
+    position: relative;
+    left:25%;
+    margin-top:2%;
+    margin-bottom:2%;
+    text-align: center;
+    font-family: 'Cairo';
+    
+}
+.post img{
+    width:90%;
+    height:300px;
+}
+.post h2{
+    padding-top: 2%;
+    
+}
+.post p{
+    margin-top:0px;
+    font-size: 13px;
+    color:#6a6a6a;
+}
+#read-more{
+    width:120px;
+    height:60px;
+    float:right;
+}
+.post a{
+    color: #0060B6;
+    text-decoration: none;
+    color :black;
+}
+.post div{
+    width:16%;
+    height:35px;
+    float:right;
+    background-color:#af1c1c;
+    margin-right:4%;
+    border-radius: 8%
+}
+.post div p{
+    color: white;
+    margin: 4.5px;
+}
