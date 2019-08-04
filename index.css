@@ -123,6 +123,11 @@ Body{
 
 #nav-links{
         visibility:hidden;
+    } 
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    #nav-links{
+        visibility:hidden;
     }
     
     
