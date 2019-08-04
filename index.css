@@ -119,3 +119,15 @@ Body{
     color: white;
     margin: 4.5px;
 }
+@media (min-width: 481px) and (max-width: 767px) {
+
+#nav-links{
+        visibility:hidden;
+    }
+    
+    
+    
+    
+    
+    
+}
