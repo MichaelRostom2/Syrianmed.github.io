@@ -55,6 +55,7 @@ Body{
     position:fixed;
     top:50%;
     right:0.6%;
+    z-index:2;
     
     
     
@@ -122,6 +123,28 @@ Body{
 @media (min-width: 481px) and (max-width: 767px) {
 
 #nav-links{
+width: 0px;
+    height: 0px;
+}
+    .post{
+        width:100%;
+        left:0px;
+        margin-top:0.5%;
+    }
+    #header{
+        height:200px;
+        
+    }
+    #logo-img{
+        padding-top:8%
+    }
+    #logo-img2{
+        padding-top:8%;
+    }
+    
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    #nav-links{
         visibility:hidden;
     }
     
