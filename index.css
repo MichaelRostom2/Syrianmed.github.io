@@ -129,6 +129,7 @@ width: 0px;
     .post{
         width:100%;
         left:0px;
+        height:800px;
         margin-top:0.5%;
     }
     #header{
@@ -136,34 +137,16 @@ width: 0px;
         
     }
     #logo-img{
-        padding-top:8%
+        padding-top:0;
+        width:200px;
     }
     #logo-img2{
-        padding-top:8%;
+        width:300px;
+        height:150px;
+        padding-top:0;
     }
-    
-}
-@media (min-width: 768px) and (max-width: 1080px) {
-   #nav-links{
-width: 0px;
-    height: 0px;
-}
-    .post{
-        width:100%;
-        left:0px;
-        margin-top:0.5%;
+    .post h2{
+        font-size:60px;
     }
-    #header{
-        height:200px;
-        
-    }
-    #logo-img{
-        padding-top:8%
-    }
-    #logo-img2{
-        padding-top:8%;
-    }
-    
-    
     
 }
