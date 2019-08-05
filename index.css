@@ -70,7 +70,7 @@ Body{
 .post{
     clear: both;
     width:50%;
-    height:575px;
+    height:590px;
     background-color: white;
     position: relative;
     left:25%;
@@ -82,7 +82,7 @@ Body{
 }
 .post img{
     width:90%;
-    height:350px;
+    height:375px;
 }
 .post h2{
     padding-top: 2%;
