@@ -112,18 +112,18 @@ width: 0px;
 width: 0px;
     height: 0px;
 }
-    #header{
-        height:200px;
+   #header{
+        height:220px;
         
     }
     #logo-img{
-        padding-top:1px;
+        padding-top:10px;
         width:190px;
     }
     #logo-img2{
         width:500px;
         height:200px;
-        padding-top:0;
+        padding-top:10px;
         padding-right:0%;
     }
     #social-media ul li img{
@@ -152,4 +152,8 @@ width: 0px;
         font-weight: 900;
         padding: 5px;
     }
+    .article article{
+        margin:20px;
+    }
 }
+
