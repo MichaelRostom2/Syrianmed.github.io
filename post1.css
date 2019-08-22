@@ -1,8 +1,8 @@
 #header{
     width:100%;
-    height:110px;
+    height:120px;
     margin-top: -0.90%;
-    background-color:#f6f6f6;
+    background-color:#ffffff;
     border-bottom: 3px solid #2396f3;
 
 }
@@ -14,15 +14,15 @@ Body{
     src:url(Roboto-Regular.ttf);}
 #logo-img2{
     float:right;
-    width:250px;
+    width:260px;
     padding-right:4%;
-    padding-top:0.5%;
+    padding-top:0.2%;
 }
 #logo-img{
     float:left;
-     width: 90px;
-    padding-top:0.7%;
-    padding-left:9%;
+     width: 120px;
+    padding-top:0%;
+    padding-left:8.5%;
 
     
 }
@@ -31,10 +31,10 @@ Body{
     padding-left:70px;
 }
 #nav-links li a{
-    border-bottom: 1px solid rgba(35, 150, 243,0.7);
+   border-bottom: 1px solid rgba(35, 150, 243,0.7);
     display: block;
     padding:14px 95px;
-    background-color: #f6f6f6;
+    background-color: #ffffff;
     text-decoration: none;
     color:black;
     text-align: center;
@@ -42,11 +42,11 @@ Body{
     
 }
 #nav-links {
-    list-style-type: none;
+   list-style-type: none;
     margin: 0px;
     padding: 0;
     overflow: hidden;
-    background-color: #f6f6f6;
+    background-color: #ffffff;
 }
 #nav-links  li a:hover {
     background-color:#e0e0e0;
@@ -81,49 +81,69 @@ Body{
     padding-top:2%;
 }
 @media (min-width: 481px) and (max-width: 767px) {
-
-#nav-links{
+ #nav-links{
 width: 0px;
     height: 0px;
 }
-    .post{
-        width:100%;
-        left:0px;
-        height:800px;
-        margin-top:0.5%;
-    }
     #header{
-        height:200px;
+        height:250px;
         
     }
     #logo-img{
-        padding-top:0;
-        width:200px;
+        width:246px;
     }
     #logo-img2{
-        width:300px;
-        height:150px;
-        padding-top:0;
+        width:500px;
+        height:200px;
+        padding-top:14px;
+        padding-right:0%;
     }
-    
+    #social-media ul li img{
+     width :120px;
+    height:120px;
+        float: right;}
+     #social-media{
+    position:fixed;
+    top:39%;
+    right:0.6%;
+    z-index:2;
+}
+    .article img{
+    width:100%;
+    padding-top:0%;
+}
+    .article{
+    width:100%;
+    background-color: white;
+    margin-top:7%;
+    margin-bottom:2%;
+    text-align: center;
+    font-family: 'Cairo';
+}
+    .article h1{
+        font-weight: 900;
+        padding: 5px;
+    }
+    .article article{
+        margin:20px;
+    }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
     #nav-links{
 width: 0px;
     height: 0px;
 }
-   #header{
-        height:220px;
+    #header{
+        height:250px;
         
     }
     #logo-img{
-        padding-top:10px;
-        width:190px;
+        width:246px;
     }
     #logo-img2{
         width:500px;
         height:200px;
-        padding-top:10px;
+        padding-top:14px;
         padding-right:0%;
     }
     #social-media ul li img{

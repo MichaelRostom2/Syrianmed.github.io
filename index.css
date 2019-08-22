@@ -1,28 +1,28 @@
-#header{
-    width:100%;
-    height:110px;
-    margin-top: -0.90%;
-    background-color:#f6f6f6;
-    border-bottom: 3px solid #2396f3;
-
-}
 Body{
     background-color: rgb(218,224,230);
+}
+#header{
+    width:100%;
+    height:120px;
+    margin-top: -0.90%;
+    background-color:#ffffff;
+    border-bottom: 3px solid #2396f3;
+
 }
 @font-face{ /* New font fron google fonts */
     font-family: Roboto-Regular;
     src:url(Roboto-Regular.ttf);}
 #logo-img2{
     float:right;
-    width:250px;
+    width:260px;
     padding-right:4%;
-    padding-top:0.5%;
+    padding-top:0.2%;
 }
 #logo-img{
     float:left;
-     width: 90px;
-    padding-top:0.7%;
-    padding-left:9%;
+     width: 120px;
+    padding-top:0%;
+    padding-left:8.5%;
 
     
 }
@@ -34,7 +34,7 @@ Body{
     border-bottom: 1px solid rgba(35, 150, 243,0.7);
     display: block;
     padding:14px 95px;
-    background-color: #f6f6f6;
+    background-color: #ffffff;
     text-decoration: none;
     color:black;
     text-align: center;
@@ -46,7 +46,7 @@ Body{
     margin: 0px;
     padding: 0;
     overflow: hidden;
-    background-color: #f6f6f6;
+    background-color: #ffffff;
 }
 #nav-links  li a:hover {
     background-color:#e0e0e0;
@@ -153,17 +153,16 @@ width: 0px;
     height: 0px;
 }
     #header{
-        height:220px;
+        height:250px;
         
     }
     #logo-img{
-        padding-top:10px;
-        width:190px;
+        width:246px;
     }
     #logo-img2{
         width:500px;
         height:200px;
-        padding-top:10px;
+        padding-top:14px;
         padding-right:0%;
     }
     .post h2{
